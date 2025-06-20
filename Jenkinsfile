@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label 'Ubuntu 24.04'
+        any
     }
     stages{
         stage("Install Dependancies"){
